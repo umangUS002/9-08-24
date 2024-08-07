@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link href="maincss.css" rel="stylesheet">
+    
+
+</head>
+<body>
+<div>
+  <h1 class="title1">9 Days Past August </h1>
+  <h1 class="title2">Hello! Sonakshi</h1>
+  <h2 class="title3">It's Your Special Day</h2>
+</div>
+
+<div>
+<div class="button">
+  <button ><a class="buttonT" href="./file.html">Click Here</a></button>
+</div>
+
+<style>
+  @keyframes ticker-kf {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      /* 10rem for each logo x 6 logos total = -60rem */
+      transform: translateX(-60rem);
+    }
+  }
+
+  .img-ticker {
+    display: flex;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    animation: ticker-kf 10s linear infinite;
+  }
+
+  .tickerlogo {
+    width: 50rem;
+    flex: none;
+    margin: 0 1rem 0 1rem;
+    align-self: flex-start;
+    max-width: 100%;
+    height: 450px;
+    @media (max-width: 1130px) {
+      width: 13rem;
+      height: 350px;
+
+
+  }
+  }
+</style>
+<div style="overflow: hidden; width: 100%;">
+  
+  <!-- The slider itself is a flex grid -->
+  <div class="img-ticker">
+
+    <!-- Original set of images. Logo images credits to https://github.com/solodev/infinite-logo-carousel/ -->
+    <!-- Each image is a grid column with width 8rem and horiztonal margin 2rem = 10rem -->
+    <img class="tickerlogo" src="./reviews/1.jpg">
+    <img class="tickerlogo" src="./reviews/2.jpg">
+    <img class="tickerlogo" src="./reviews/3.jpg">
+    <img class="tickerlogo" src="./reviews/4.jpg">
+    <img class="tickerlogo" src="./reviews/5.jpg">
+    <img class="tickerlogo" src="./reviews/6.jpg">
+
+    <!-- 2nd copy set of images -->
+    <img class="tickerlogo" src="./reviews/1.jpg">
+    <img class="tickerlogo" src="./reviews/2.jpg">
+    <img class="tickerlogo" src="./reviews/3.jpg">
+    <img class="tickerlogo" src="./reviews/4.jpg">
+    <img class="tickerlogo" src="./reviews/5.jpg">
+    <img class="tickerlogo" src="./reviews/6.jpg">
+    
+    <!-- 3rd copy set of images -->
+    <img class="tickerlogo" src="./reviews/1.jpg">
+    <img class="tickerlogo" src="./reviews/2.jpg">
+    <img class="tickerlogo" src="./reviews/3.jpg">
+    <img class="tickerlogo" src="./reviews/4.jpg">
+    <img class="tickerlogo" src="./reviews/5.jpg">
+    <img class="tickerlogo" src="./reviews/6.jpg">
+  </div>
+</div>
+<footer><p>Made in Victus with Love</p></footer>
+</div>
+</body>
+
+</html>
