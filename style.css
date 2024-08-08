@@ -7,11 +7,31 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+.a{
+  color:#159faa;
+}
+.b{
+  color: rebeccapurple;
+}
+.sentence{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  background-color: whitesmoke;
+  color: #000;
+  font-size: 1.5rem;
+  @media (max-width: 1530px) {
+      
+    font-size:1.2rem;
+  }
+}
 .word{
   color: whitesmoke;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 100px;
   font-size: 3rem;
   @media (max-width: 1530px) {
       
